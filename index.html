@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/css/styles.css" />
+        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+        <title>Recibidos</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <!--Menu Principal -->
+            <aside class="contenedor__menu-principal">
+                <ion-icon name="menu-outline" class="menu-principal__logo"></ion-icon>
+                <ion-icon name="mail-outline" class="menu-principal__logo"></ion-icon>
+                <ion-icon name="chatbox-outline" class="menu-principal__logo"></ion-icon>
+                <ion-icon name="people-outline" class="menu-principal__logo"></ion-icon>
+                <ion-icon name="videocam-outline" class="menu-principal__logo"></ion-icon>
+            </aside>
+            <!--Cabecera y Buscador-->
+            <header class="contenedor__cabecera">
+                <div class="cabecera__logo">
+                  <img src="assets/gmailLogo.png" class="logo__imagen"/>  
+                </div>
+                <form class="cabecera__buscador">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" placeholder="Buscar en el correo">
+                </form>
+                <div class="cabecera__conexion">
+                    <ul class="conexion__lista">
+                        <li class="conexion__opcion">Online</li>
+                        <li class="conexion__opcion">Ausente</li>
+                        <li class="conexion__opcion">No Molestar</li>
+                    </ul>
+                </div>
+                <div class="cabecera__usuario">
+                    <ion-icon name="refresh-circle-outline" class="usuario__icono"></ion-icon>
+                    <ion-icon name="settings-outline" class="usuario__icono"></ion-icon>
+                    <ion-icon name="grid-outline" class="usuario__icono"></ion-icon>
+                    <ion-icon name="person-circle-outline" class="usuario__icono"></ion-icon>
+                </div>
+            </header>
+            <main class="contenedor__correo">
+                <button class="correo__boton">Nuevo Correo</button>
+            </main>
+        </div>
+    </body>
+    </html>
