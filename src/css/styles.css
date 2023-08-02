@@ -1,0 +1,56 @@
+/* VARIABLES */
+
+:root {
+    --color-principal: #F6F8FC;
+    --color-blanco-total: #FFFFFF;
+    --color-boton-redactar: #C2E7FF;
+    --color-contenido: #F2F6FC;
+    --color-barra-buscador: #EAF1FB;
+    --color-fuente: #001D35;
+    --color-sidebar:#EAF1FB;
+}
+
+/* ESTILOS GENERALES */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-principal);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-fuente)
+}
+
+/*ESTRUCTURA PRINCIPAL*/
+
+.contenedor {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 'header header header'
+    'aside contenido contenido'
+    'footer footer footer';
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.contenedor__menu-principal {
+    grid-area: aside;
+}
+
+.contenedor__cabecera {
+    grid-area: header;
+}
+
+.contenedor__correo {
+    grid-area: contenido;
+}
+
+.contenedor__footer {
+    grid-area: footer;
+}
