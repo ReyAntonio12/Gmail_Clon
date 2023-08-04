@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 GMail Clon <a name="about-project"></a>
 
 **[GMail Clon]** is a project that only shows the main structure of Gmail Dasboard without any emails received on the inbox section.
 
